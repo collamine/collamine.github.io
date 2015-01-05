@@ -1,0 +1,76 @@
+#wrapper {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	width: 810px;
+	height: 450px;
+	padding: 50px 25px 50px 50px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#wrapper img {
+	display: block;
+	float: left;
+}
+#images, #thumbs {
+	height: 350px;
+	float: left;
+	overflow: hidden;
+}
+#images {
+	width: 350px;
+}
+#thumbs {
+	width: 375px;
+	margin-left: 25px;
+}
+#thumbs img {
+	border: 1px solid #ccc;
+	padding: 14px;
+	margin: 0 25px 25px 0;
+	cursor: pointer;
+}
+#thumbs img.selected, #thumbs img:hover {
+	border-color: #333;
+}
+ 
+#thumbs div {
+	width: 375px;
+	height: 350px;
+	float: left;
+}
+#prev a, #next a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #999;
+	position: absolute;
+}
+#prev a:hover, #next a:hover {
+	color: red;
+}
+#prev a.disabled, #next a.disabled {
+	display: none !important;
+}
+#prev a {
+	top: 15px;
+}
+#next a {
+	bottom: 15px;
+}
+a.images {
+	left: 400px;
+}
+a.thumbs {
+	right: 400px;
+}
+ 
+#source {
+	text-align: center;
+	width: 400px;
+	margin: 0 0 0 -200px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+}
+#source, #source a {
+	color: #999;
+	font-size: 12px;
+}
