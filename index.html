@@ -27,6 +27,9 @@
 	<link href="color/default.css" rel="stylesheet">
 	<link href="css/tabs.css" rel="stylesheet">
 	<link href="css/slide.css" rel="stylesheet">
+	
+    <link rel="stylesheet" type="text/css" href="carouselengine/initcarousel-1.css">
+    
 </head>
 
 <body data-spy="scroll">
@@ -72,6 +75,8 @@
 			</li>
 			<li><a href="index.html">Collamine</a></li>
 			<li><a href="https://collamine.wordpress.com">Blog</a></li>
+			<li><a href="http://54.254.137.255:9001/">CollaMine(Python)</a></li>
+			<li><a href="http://54.254.138.142/collamine/cm">CollaMine(Ruby)</a></li>
 			<li><ul class="company-social">
 						<li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
 						<li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -129,7 +134,7 @@
 						</div>
 						<div class="service-desc">
 							<h5>Programs</h5>
-							<p>Our programs are designed...</p>
+							<p>Our programs are designed to reduce the development and maintenance cost for data collection and information retrieval related projects and products </p>
 						</div>
 					</div>
 				</div>
@@ -174,6 +179,7 @@
 							<p>	Our goals is to address the big data issues as above. 
 								Currently, we have an online peer-to-peer resource sharing system which allows documents and datas to be collected, extracted and shared among the social media analytic communities.  
 							</p>
+							<br /><br />
 							<img src="images/CollaMine.gif" alt="pic1" width="750px" />
 						</div>
 				
@@ -255,47 +261,43 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>	
 		<div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12" >
 					<a href="http://youtu.be/xxXJ1-0sVqg" rel="prettyPhoto" title=""><img src="images/youtube.jpg" alt="YouTube"  /></a>
                 </div>
+				<!-- Insert to your webpage where you want to display the carousel -->
+							<div id="amazingcarousel-container-1">
+								<h4>To see more videos:</h4>
+								<div id="amazingcarousel-1" style="display:block;position:relative;width:100%;max-width:480px;margin:0px auto 0px;">
+									<div class="amazingcarousel-list-container">
+										<ul class="amazingcarousel-list">
+											<li class="amazingcarousel-item">
+												<div class="amazingcarousel-item-container">
+													<div class="amazingcarousel-image"><a href="images/MyMovie.mp4" title="CollaMine Tutorial (Python)"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/posterimage.PNG"  alt="CollaMine Tutorial (Python)" /></a></div>
+													<div class="amazingcarousel-title">CollaMine Tutorial (Python)</div>
+													<div class="amazingcarousel-description">Teach you how to use the CollaMine Server using Python.</div>                    
+												</div>
+											</li>
+											<li class="amazingcarousel-item">
+												<div class="amazingcarousel-item-container">
+													<div class="amazingcarousel-image"><a href="images/CRYSTAL1.mp4" title="CollaMine Tutorial (Ruby)"  class="html5lightbox" data-group="amazingcarousel-1"><img src="images/posterimage2.PNG"  alt="CollaMine Tutorial (Ruby)" /></a></div>
+													<div class="amazingcarousel-title">CollaMine Tutorial (Ruby)</div>
+													<div class="amazingcarousel-description">Teach you how to use CollaMine server in Ruby</div>                    
+												</div>
+											</li>
+										</ul>
+											<div class="amazingcarousel-prev"></div>
+											<div class="amazingcarousel-next"></div>
+									</div>
+								</div>
+							</div>
             </div>	
 		</div>
 		<br /><br />
-		<div class="tabs">
-			<ul class="tab-links">
-				<li class="active"><a href="#tab1">HTML</a></li>
-				<li><a href="#tab2">CSS</a></li>
-				<li><a href="#tab3">Javascript</a></li>
-				<li><a href="#tab4">Comment</a></li>
-			</ul>
-		 
-			<div class="tab-content">
-				<div id="tab1" class="tab active">
-					<pre>
-						<code>
-							
-						</code>
-					</pre>
-				</div>
-		 
-				<div id="tab2" class="tab">
-					<p>Tab #2 content goes here!</p>
-					<p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
-				</div>
-		 
-				<div id="tab3" class="tab">
-					<p>Tab #3 content goes here!</p>
-					<p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
-				</div>
-		 
-				<div id="tab4" class="tab">
-					<p>Tab #4 content goes here!</p>
-					<p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
-				</div>
-			</div>
+		<div>
+			
 		</div>
 	</section>
 	<!-- /Section: tutorials -->
@@ -322,8 +324,8 @@
 					<div class="team boxed-grey">
 						<div class="inner">
 							<h5>Kenny Lu</h5>
-							<p class="subtitle">Programmer(Investor)</p>
-							<div class="avatar"><img src="img/team/1.jpg" alt="" class="img-responsive" /></div>
+							<p class="subtitle">Programmer(Head))</p>
+							<div class="avatar"><img src="img/team/kenny.jpg" alt="" class="img-responsive" /></div>
 						</div>
 					</div>
 				</div>
@@ -331,8 +333,8 @@
 					<div class="team boxed-grey">
 						<div class="inner">
 							<h5>Belson HENG</h5>
-							<p class="subtitle">Programmer</p>
-							<div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive" /></div>
+							<p class="subtitle">Programmer(Head-Assistant)</p>
+							<div class="avatar"><img src="img/team/belson.jpg" alt="" class="img-responsive" /></div>
 						</div>
 					</div>
 				</div>
@@ -340,8 +342,8 @@
 					<div class="team boxed-grey">
 						<div class="inner">
 							<h5>Samuel Lim</h5>
-							<p class="subtitle">jQuery Ninja</p>
-							<div class="avatar"><img src="img/team/3.jpg" alt="" class="img-responsive" /></div>
+							<p class="subtitle">Programmer</p>
+							<div class="avatar"><img src="img/team/samuel.jpg" alt="" class="img-responsive" /></div>
 						</div>
 					</div>
 				</div>
@@ -349,8 +351,8 @@
 					<div class="team boxed-grey">
 						<div class="inner">
 							<h5>Crystal Neo</h5>
-							<p class="subtitle">Typographer</p>
-							<div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive" /></div>
+							<p class="subtitle">Programmer</p>
+							<div class="avatar"><img src="img/team/crystal.jpg" alt="" class="img-responsive" /></div>
 						</div>
 					</div>
 				</div>
@@ -465,6 +467,8 @@
 	<script src="js/gnmenu.js"></script>
 	<script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/stellar.js"></script>
+	<script src="carouselengine/amazingcarousel.js"></script>
+	<script src="carouselengine/initcarousel-1.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
 	<script type="text/javascript">
