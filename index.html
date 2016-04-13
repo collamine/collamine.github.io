@@ -8,6 +8,9 @@
     <meta name="author" content="">
 
     <title>Collamine</title>
+    
+    <!--Tables-->
+    <link href="css/collamine.css" rel="stylesheet" type="text/css" />
 
 	<!-- Videos -->
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen">
@@ -29,6 +32,7 @@
 	<link href="css/slide.css" rel="stylesheet">
 	
     <link rel="stylesheet" type="text/css" href="carouselengine/initcarousel-1.css">
+    
     
 </head>
 
@@ -182,6 +186,88 @@
 							</p>
 							<br /><br />
 							<!-- / insert table here -->
+							
+							<table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Upload</th>
+                <th>Download</th>
+                <th>Total</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>4716</td>
+                <td>2478</td>
+                <td>7194</td>
+            </tr>
+            <tr>
+                <td>4278</td>
+                <td>2443</td>
+                <td>6721</td>
+            </tr>
+            <tr>
+                <td>1605</td>
+                <td>2011</td>
+                <td>3616</td>
+            </tr>
+            <tr>
+                <td>2476</td>
+                <td>1906</td>
+                <td>4382</td>
+            </tr>
+            <tr>
+                <td>3001</td>
+                <td>444</td>
+                <td>3445</td>
+            </tr>
+            <tr>
+                <td>3807</td>
+                <td>1883</td>
+                <td>5690</td>
+ 
+            </tr>
+            <tr>
+                <td>4935</td>
+                <td>1940</td>
+                <td>6875</td>
+ 
+            </tr>
+            <tr>
+                <td>2994</td>
+                <td>2295</td>
+                <td>5289</td>
+ 
+            </tr>
+            <tr>
+                <td>2982</td>
+                <td>2294</td>
+                <td>5276</td>
+      
+            </tr>
+            <tr>
+                <td>3210</td>
+                <td>2814</td>
+                <td>6024</td>
+             
+            </tr>
+            <tr>
+                <td>598</td>
+                <td>1768</td>
+                <td>2366</td>
+               
+            </tr>
+            <tr>
+                <td>4915</td>
+                <td>2537</td>
+                <td>7452</td>      
+            </tr>
+ 
+        </tbody>
+    </table>
+							
+							
 						</div>
 				
 					</div>
@@ -451,5 +537,13 @@
 			$("a[rel^='prettyPhoto']").prettyPhoto();
 		});
 	</script>
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+	<script>
+		$(document).ready(function() {
+		$('#example').DataTable();
+		} );
+</script>
 </body>
 </html>
